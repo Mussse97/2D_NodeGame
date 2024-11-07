@@ -511,8 +511,8 @@
         this.stage.addChild(this.sword);
         }
         test.scene.Game.prototype.enemyMonster = function(){
-            var x = Math.random()*(this.application.width - 80)
-            var y = Math.random()*(this.application.height - 80)
+            var x = Math.random()*(this.application.width )
+            var y = Math.random()*(this.application.height )
 
             this.monster = new rune.display.Sprite(x, y, 64, 64,  "Monster2");
             this.monster.animation.create("walk", [0,1], 2, true );
@@ -534,10 +534,10 @@
         test.scene.Game.prototype.enemySmorc = function(){
 
             var x = Math.round(Math.random())
-            x = this.application.width*x - 80*x
+            x = this.application.width*x - 30*x
 
             var y = Math.round(Math.random())
-            y = this.application.width*y - 80*y
+            y = this.application.width*y - 30*y
 
             this.monster = new rune.display.Sprite(x, y, 64, 64,  "Monster1");
             this.monster.animation.create("walk", [0,1], 2, true );
