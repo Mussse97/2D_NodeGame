@@ -22,7 +22,7 @@ test.system.Main = function() {
      * Extend (Rune) Application.
      */
     rune.system.Application.call(this, {
-        developer: "Mostafa Hussein",
+        developer: "se.lnu",
         app: "deadsoil",
         build: "0.0.0",
         scene: test.scene.menu,
