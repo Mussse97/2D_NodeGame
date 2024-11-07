@@ -1,0 +1,8 @@
+package-lock.json
+package.json
+/data
+/scripts
+/node_modules
+/lib
+/dist
+/assets
